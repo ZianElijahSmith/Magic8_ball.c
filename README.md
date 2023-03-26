@@ -2,7 +2,7 @@
 
 <pre>
 /***************************************************************************************/
-/* Program name:  Magic-8ball.c                                                        */         
+/* Program name:  Magic_8ball.c                                                        */         
 /* Program purpose: To simulate a Magic 8ball for fun                                  */
 /* Date created:  Sunday, March 26th, 2023 (3/26/2023)                                 */
 /* Program Author: Zian Elijah Smith                                                   */
