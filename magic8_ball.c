@@ -6,7 +6,7 @@
 /* Program name:  Magic-8ball.c                                                        */         
 /* Program purpose: To simulate a Magic 8ball for fun                                  */
 /* Date created:  Sunday, March 26th, 2023 (3/26/2023)                                 */
-/* Program Author: Zian Elijah Smith                                                     */
+/* Program Author: Zian Elijah Smith                                                   */
 /*                                                                                     */
 /* Compile Options:                                                                    */
 /*                                                                                     */
@@ -80,3 +80,4 @@ int main(void)
 // got zero errors and zero warnings with.....
 // gcc -std=gnu17 -W -Wall -O -fsanitize=address,bounds-strict magic-8ball.c -o test
 // on Debian 10 buster 64 bit
+
