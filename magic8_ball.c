@@ -38,7 +38,7 @@ int main(void)
     const char *array_of_responses[500] = {
     "It is certain.", "It is decidedly so.", "Without a doubt.", "Yes definitely.", \
     "You may rely on it.", "As I see it, yes.", "Most likely.", "Outlook good.", \
-    "Yes.", "Signs point to yes.", "Reply hazy, try again.", " Ask again later.", \
+    "Yes.", "Signs point to yes.", "Reply hazy, try again.", "Ask again later.", \
     "Better not tell you now.", "Cannot predict now.", "Concentrate and ask again." \
     "Don't count on it.", "My reply is no.", "My sources say no.", \
     "Outlook not so good.", "Very doubtful. " \
@@ -53,7 +53,7 @@ int main(void)
     magic_number = (rand() % (HIGHEST_LIMIT - LOWEST_LIMIT + 1)) + LOWEST_LIMIT;
     
     // Request user asks a question!
-    printf("Please ask your question!\n");
+    printf("Please ask your question!\n\n");
 
     // Take user input! 
     // Want to use the response 
@@ -70,7 +70,7 @@ int main(void)
     scanf("%[^\n]s", &user_input[0]);
     
     // print response!
-    printf("%s\n", array_of_responses[magic_number]);
+    printf("%s\n\n", array_of_responses[magic_number]);
     printf("Your question was.... '%s'\n", user_input);
     
 
@@ -82,4 +82,3 @@ int main(void)
 // got zero errors and zero warnings with.....
 // gcc -std=gnu17 -W -Wall -O -fsanitize=address,bounds-strict magic-8ball.c -o test
 // on Debian 10 buster 64 bit
-
